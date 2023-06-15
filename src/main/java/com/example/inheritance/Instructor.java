@@ -29,4 +29,9 @@ public class Instructor extends Academician{
     public void setDoorNumber(int doorNumber) {
         this.doorNumber = doorNumber;
     }
+
+    @Override
+    public void takeTheClass() {
+        System.out.println(getNameSurname() + "enter the class.");
+    }
 }

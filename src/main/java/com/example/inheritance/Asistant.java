@@ -19,4 +19,9 @@ public class Asistant extends Academician{
     public void setOfficeHour(String officeHour) {
         this.officeHour = officeHour;
     }
+
+    @Override
+    public void takeTheClass() {
+        System.out.println(getNameSurname() + " enter the class.");
+    }
 }

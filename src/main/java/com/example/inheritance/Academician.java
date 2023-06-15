@@ -1,6 +1,6 @@
 package com.example.inheritance;
 
-public class Academician extends Worker{
+public abstract class Academician extends Worker{
     //bölüm ünvan - derse gir
     private String department;
     private String title;
@@ -11,10 +11,7 @@ public class Academician extends Worker{
         this.setTitle(title);
     }
 
-    public void takeTheClass (){
-        System.out.println(this.getNameSurname() + "entered the class");
-
-    }
+    public abstract void takeTheClass ();
 
     public String getDepartment() {
         return department;

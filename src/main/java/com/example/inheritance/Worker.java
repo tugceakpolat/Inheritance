@@ -39,15 +39,15 @@ public class Worker {
     //giriş,çıkış,yemekhane
 
     public void checkIn(){
-        System.out.println(this.getNameSurname() + "logged in.");
+        System.out.println(this.getNameSurname() + " logged in.");
     }
 
     public void checkOut(){
-        System.out.println(this.getNameSurname() + "logged out.");
+        System.out.println(this.getNameSurname() + " logged out.");
     }
 
     public void diningHall(){
-        System.out.println(this.getNameSurname() + "entered the dining hall.");
+        System.out.println(this.getNameSurname() + " entered the dining hall.");
     }
 
     public static void entrants(Worker[] login){
